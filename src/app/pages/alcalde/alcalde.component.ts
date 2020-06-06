@@ -9,8 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class AlcaldeComponent implements OnInit {
 
   alcalde: Array<object> = [{ 
-    image: '../../../assets/images/alcalde.png',
-  thumbImage: '../../../assets/images/alcalde.png'
+    image: 'assets/images/alcalde.png',
+  thumbImage: 'assets/images/alcalde.png'
   }
 ];
   constructor() { }
