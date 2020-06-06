@@ -49,7 +49,7 @@
 
                         <!-- Simple Menu Item -->
                         <li class="dropdown mega-menu">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">Alcaldia<i class="fa fa-angle-down"></i></a>
+                            <a [routerLink]="['/inicio']" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button">Alcaldia<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li>
                                     <!-- Start of Mega Menu Inner -->
@@ -61,21 +61,21 @@
                                                 <li> <a style="color: #731763; !important" routerLinkActive [routerLink]="['Alcalde']">Alcalde</a> </li>
                                                 <li> <a style="color: #731763; !important" routerLinkActive [routerLink]="['Mision-Y-Vision']">Misión, Visión y valores institucionales</a> </li>
                                                 <li> <a style="color: #731763; !important" routerLinkActive [routerLink]="['Funciones-y-deberes']">Funciones y deberes</a> </li>
-                                                <li> <a href="">Organigrama</a> </li>
-                                                <li> <a href="">Directorio de funcionarios</a> </li>
-                                                <li> <a href="">Directorio institucional</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Organigrama</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Directorio de funcionarios</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Directorio institucional</a> </li>
 
                                             </ul>
 
                                             <ul class="col-md-4">
                                                 <li class="menu-title">Consultas Y certificados</li>
-                                                <li> <a href="#">Calendario tributario</a> </li>
-                                                <li> <a href="#">Sede electronica</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Calendario tributario</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Sede electronica</a> </li>
                                                 <li> <a style=" font-weight: bold;">Municipio</a> </li>
                                                 <li> <a style="color: #731763; !important" routerLinkActive [routerLink]="['Montelibano']">Nuestro Municipio</a> </li>
-                                                <li> <a href="#">Manual de contratacion </a> </li>
-                                                <li> <a href="#">Informacion gneral</a> </li>
-                                                <li> <a href="#">Código de integridad servicio piblico</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Manual de contratacion </a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Informacion gneral</a> </li>
+                                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Código de integridad servicio piblico</a> </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -86,35 +86,35 @@
 
                         <!-- Simple Menu Item -->
                         <li class="dropdown simple-menu">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">Infórmate<i class="fa fa-angle-down"></i></a>
+                            <a [routerLink]="['/inicio']" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button">Infórmate<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
-                                <li> <a href="">Noticias</a> </li>
-                                <li> <a href="">Preguntas y respuestas</a> </li>
-                                <li> <a href="">Control</a> </li>
-                                <li> <a href="">Glosario</a> </li>
-                                <li> <a href="">Datos abiertos</a> </li>
-                                <li> <a href="">Metas, objetivos e indicadores</a> </li>
-                                <li> <a href="">Información adicional</a> </li>
-                                <li> <a href="">Contrataciones</a> </li>
-                                <li> <a href="">Convocatorias</a> </li>
-                                <li> <a href="">Ofertas de empleo</a> </li>
-                                <li> <a href="">Población vulnerable</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Noticias</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Preguntas y respuestas</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Control</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Glosario</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Datos abiertos</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Metas, objetivos e indicadores</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Información adicional</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Contrataciones</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Convocatorias</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Ofertas de empleo</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Población vulnerable</a> </li>
                             </ul>
                         </li>
                         <!-- Simple Menu Item -->
                         <li class="dropdown simple-menu">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">Documentos<i class="fa fa-angle-down"></i></a>
+                            <a [routerLink]="['/inicio']" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button">Documentos<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <!-- Dropdown Submenu -->
                                 <li class="dropdown-submenu">
                                     <a href="#">headers<i class="fa fa-angle-right"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li> <a href="">Normatividad</a> </li>
-                                        <li> <a href="">Informes de PQRDS</a> </li>
-                                        <li> <a href="">politicas y alineamientos</a> </li>
-                                        <li> <a href="">Planes</a> </li>
-                                        <li> <a href="">Programas</a> </li>
-                                        <li> <a href="">Presupuesto</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Normatividad</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Informes de PQRDS</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">politicas y alineamientos</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Planes</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Programas</a> </li>
+                                        <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Presupuesto</a> </li>
                                     </ul>
                                 </li>
 
@@ -136,16 +136,16 @@
 
                         <!-- Simple Menu Item -->
                         <li class="dropdown simple-menu">
-                            <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button">Participa<i class="fa fa-angle-down"></i></a>
+                            <a [routerLink]="['/inicio']" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button">Participa<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu" role="menu">
 
-                                <li> <a href="">Calendario de Actividades</a> </li>
-                                <li> <a href="">Niños, Niñas, Adolecentes</a> </li>
-                                <li> <a href="">Encuestas</a> </li>
-                                <li> <a href="">Instancias de participaciones</a> </li>
-                                <li> <a href="">Rendición  de cuentas</a> </li>
-                                <li> <a href="">Presupuesto</a> </li>
-                                <li> <a href="">Enlaces de interés</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Calendario de Actividades</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Niños, Niñas, Adolecentes</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Encuestas</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Instancias de participaciones</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Rendición  de cuentas</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Presupuesto</a> </li>
+                                <li> <a [routerLink]="['/inicio']" routerLinkActive="active">Enlaces de interés</a> </li>
                             </ul>
                         </li>
 

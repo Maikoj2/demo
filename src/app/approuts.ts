@@ -9,13 +9,13 @@ import { FuncionesYvaloresComponent } from './pages/funciones-yvalores/funciones
 import { MunicipioComponent } from './pages/municipio/municipio.component';
 
 const ROUTES: Routes = [
-    { path: 'home', component:  HomeComponent},
+    { path: 'inicio', component:  HomeComponent},
     { path: 'DirecionFisica', component: DireccionComponent },
     { path: 'Mision-Y-Vision', component: MisionYvisionComponent },
     { path: 'Funciones-y-deberes', component: FuncionesYvaloresComponent },
     { path: 'Alcalde', component:  AlcaldeComponent},
     { path: 'Montelibano', component:  MunicipioComponent},
-    { path: '**', pathMatch:'full', redirectTo: 'home' }  
+    { path: '**', pathMatch:'full', redirectTo: 'inicio' }  
 ];
 
-export const APPROUTES = RouterModule.forRoot(ROUTES);
+export const APPROUTES = RouterModule.forRoot(ROUTES, {useHash:true});
